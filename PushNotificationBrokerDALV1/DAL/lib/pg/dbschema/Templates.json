@@ -1,0 +1,7 @@
+{
+  "tableName":"Template",
+  "createstmt":"CREATE TABLE IF NOT EXISTS",
+  "columnNames":"(templateId text , gcm text, apns text,wns text,rules text,email text,sms text)"
+}
+
+

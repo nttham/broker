@@ -1,0 +1,47 @@
+{
+  "credentials": {
+    "authUser": "push",
+    "authPassword": "push"
+  },
+  "microservice_url" : "http://pushnotificationservice.mvp2.cognizantone.org",
+  "catalog": {
+    "apiVersion": "2.4.0",
+    "defaultVersion": "1.0",
+    "name": "push-service-broker",
+    "url": "auto",
+    "services": [
+      {
+        "id": "PushNotificationService",
+        "bindable": true,
+        "name": "PushNotificationService",
+        "version": "1.0",
+        "description": "Provides Push Notification instance Details",
+        "metadata": {
+          "providerDisplayName": "PushNotification",
+          "tags": [
+            "Push",
+            "PushNotification",
+            "push-service"
+          ]
+        },
+        "plans": [
+          {
+            "name": "free",
+            "id": "push_notification_plan",
+            "description": "free",
+            "public": true,
+            "free": true
+          }
+        ]
+      }
+    ]
+  },
+  "plans": {
+    "push_notification_plan": {
+      "parameters": {
+        "key1": "value1",
+        "key2": "value2"
+      }
+    }
+  }
+}

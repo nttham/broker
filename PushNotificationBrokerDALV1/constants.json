@@ -1,0 +1,7 @@
+{
+  "instance_collection_name"  : "Instances",
+  "device_collection_name"    : "Devices",
+  "settings_collection_name"  : "Settings",
+  "channel_collection_name"   : "Channels",
+  "template_collection_name"  : "Templates"
+}

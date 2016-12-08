@@ -1,0 +1,14 @@
+{
+  "INVALID_DBTYPE":{
+    "code"    : "DAL-101",
+    "message"	: "DB Type not supported"
+  },
+  "INVALID_CONNECTION_PARAMS":{
+    "code"    : "DAL-102",
+    "message"	: "Connection params missing"
+  },
+  "INVALID_PLATFORM":{
+    "code"    : "DAL-103",
+    "message"	: "Invalid Platform"
+  }
+}

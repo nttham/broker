@@ -1,0 +1,41 @@
+cognizants-Mac-mini:PushBroker cognizant$ ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha  ./test.js
+
+  AuthService Broker Listening on 8080
+DB opened ************ 
+AuthService broker is listening at port : 8080
+    get catalog
+x-broker-api-version is missing from the request
+      ✓ should be able to get the catalog of the service broker
+    create-service instance put method
+x-broker-api-version is missing from the request
+create-service params : {"id":"a9bc36abea045066cd4be131e278ff80"}
+      ✓ should be able to provision the service instance  (46ms)
+    create-bind-service instance put method
+x-broker-api-version is missing from the request
+      ✓ should be able to bind the service instance 
+    create-unbind-service instance DELETE method
+x-broker-api-version is missing from the request
+result    [{"_id":"5790bed3dbb4f5c00e49f1c9","instanceID":"a9bc36abea045066cd4be131e278ff80","dbName":"appDBinstancef91ac7a0-4f3d-11e6-ad4c-7f5676c0d37c","apiKey":"f91ac7a1-4f3d-11e6-ad4c-7f5676c0d37c","bindedTo":"kUomrXzdex8PfY3e","__v":0}]
+result ************ [object Object]
+result *********  { ok: 1, nModified: 1, n: 1 }
+      ✓ should be able to unbind the service instance 
+    delete-service instance DELETE method
+x-broker-api-version is missing from the request
+********Inside cf delete-service**********
+result     [{"_id":"5790bed3dbb4f5c00e49f1c9","instanceID":"a9bc36abea045066cd4be131e278ff80","dbName":"appDBinstancef91ac7a0-4f3d-11e6-ad4c-7f5676c0d37c","apiKey":"f91ac7a1-4f3d-11e6-ad4c-7f5676c0d37c","bindedTo":null,"__v":0}]
+      ✓ should be able to delete the service instance 
+
+
+  5 passing (1s)
+
+=============================================================================
+Writing coverage object [/Users/cognizant/Neethu/PushBroker/coverage/coverage.json]
+Writing coverage reports at [/Users/cognizant/Neethu/PushBroker/coverage]
+=============================================================================
+
+=============================== Coverage summary ===============================
+Statements   : 86.72% ( 222/256 )
+Branches     : 46.15% ( 24/52 )
+Functions    : 96.61% ( 57/59 )
+Lines        : 86.72% ( 222/256 )
+===========================================================================

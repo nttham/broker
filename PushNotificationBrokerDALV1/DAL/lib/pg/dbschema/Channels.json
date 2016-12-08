@@ -1,0 +1,6 @@
+{
+  "tableName":"Channels",
+  "createstmt":"CREATE TABLE IF NOT EXISTS",
+  "columnNames":"(channelName text not null, deviceID text, channelDescription text)"
+
+}

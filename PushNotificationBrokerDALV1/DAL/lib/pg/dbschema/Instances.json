@@ -1,0 +1,7 @@
+{
+  "tableName":"Instances",
+  "createstmt":"CREATE TABLE IF NOT EXISTS",
+  "columnNames":"(instanceID text , dbName text, apiKey text,bindedTo text,correlationid text)"
+}
+
+
